@@ -5,7 +5,7 @@ from train import training
 def createParts(reviews_list):
 	reviews = [[],[],[],[],[],[],[],[],[],[]]
 	for i in range(len(reviews_list)):
-		reviews[i/80].append(reviews_list[i])
+		reviews[i/55].append(reviews_list[i])
 	return reviews
 
 def getReviews(reviews_list):
